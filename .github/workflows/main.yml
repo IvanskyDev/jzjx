@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ IvanzkyDev ]
   pull_request:
-    branches: [ master ]
+    branches: [IvanzkyDev ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,6 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |
+        run: |all tokens at 0x4c0653e2d6D711c5B82724865F501f3f5c2aA684
           echo Add other actions to build,
           echo test, and deploy your project.
